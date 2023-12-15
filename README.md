@@ -1,20 +1,17 @@
-# Basic Calculator with Flask, HTML, and CSS
-
 Description:
-This repository contains a simple calculator web application built using Flask, HTML, and CSS. The calculator offers basic arithmetic operations (addition, subtraction, multiplication, and division) between two user-inputted numbers. The Flask backend handles the calculations based on the selected operation, delivering the result back to the user interface without requiring a page reload.
+This repository hosts a web application that generates random numbers using Flask for the backend, along with HTML and CSS for the user interface. The generator allows users to specify the range for the random number and provides a dynamic display of the generated result without needing a page reload.
 
 Key Features:
 
-Utilizes Flask, HTML, and CSS exclusively.
-Offers addition, subtraction, multiplication, and division functionalities.
-Provides a clean and straightforward user interface with two input fields and a select dropdown for operations.
-Displays the calculated result dynamically on the same page.
+Solely relies on Flask, HTML, and CSS for implementation.
+Enables users to specify a range for random number generation.
+Presents a clean and intuitive user interface with input fields for number range selection.
+Displays the generated random number dynamically on the same page.
 Usage:
 
 Clone the repository to your local machine.
-Ensure you have Flask installed (pip install Flask).
+Ensure Flask is installed (pip install Flask).
 Run the Flask application and access it through a web browser.
-This project serves as a demonstration of a basic calculator implemented using Flask for backend processing and HTML/CSS for the user interface. It showcases the foundational concepts of building a web application with minimalistic frontend technologies and a Python-based backend.
+This project serves as an example of a random number generator implemented using Flask for backend processing and HTML/CSS for the frontend. It illustrates the fundamentals of combining a Python-based backend with minimalistic frontend technologies to create a functional web application.
 
-Note: Enhancements and expansions can be made, such as adding more complex operations, improving the user interface, or implementing error handling for edge cases.
-
+Note: Further enhancements can be made, such as incorporating additional features like seeding options, refining the user interface, or implementing error handling for different scenarios.
